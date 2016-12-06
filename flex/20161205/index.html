@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .flex{display:flex;width:400px;margin:0;padding:0;list-style:none;flex-direction: row;height: 200px;justify-content: space-between;}
+        .flex li{width:10px;background-color: red}
+        .flex li:nth-child(1){order:3;}
+        .flex li:nth-child(2){order:0;}
+        .flex li:nth-child(3){order:1;}
+    </style>
+</head>
+<body>
+<ul class="flex">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+</ul>
+</body>
+</html>
